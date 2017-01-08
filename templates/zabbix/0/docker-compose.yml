@@ -1,0 +1,9 @@
+PingFederate:
+  ports:
+    - ${ui_port}:80
+  labels:
+    io.rancher.container.pull_image: always
+  tty: true
+  image: dockerrepo.nutanix.mnctech.com:5000/zabbix:2.2
+  stdin_open: true
+  
