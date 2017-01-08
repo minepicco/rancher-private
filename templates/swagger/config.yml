@@ -1,4 +1,0 @@
-name: "Swagger"
-description: "Swaggerのcode-generatorです。API利用を簡易化できます。"
-version: "latest"
-category: APIgen
