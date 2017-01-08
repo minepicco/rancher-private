@@ -1,4 +1,0 @@
-Swagger:
-    image: swaggerapi/swagger-generator:latest
-    ports:
-        - ${http_port}:8080
