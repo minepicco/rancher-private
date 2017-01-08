@@ -1,0 +1,13 @@
+zabbix:
+  scale: 1
+.catalog:
+    name: "Zabbix"
+    version: "2.2"
+    description: "Zabbix MNC"
+    questions:
+        - variable: ui_port
+          description: "UI Port to access PingDederate"
+          label: "UI Port"
+          required: true
+          default: "80"
+          type: "int"
