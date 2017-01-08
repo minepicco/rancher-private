@@ -1,7 +1,0 @@
-name: PostgreSQL
-description: "PostgreSQLです。ちょっとデータベースが利用したいときなどにどうぞ。" 
-version: latest
-category: Database # Category to be used for searching catalog entries
-maintainer: # The maintainer of the catalog entry
-license: # The license
-projectURL: https://hub.docker.com/_/postgres/
