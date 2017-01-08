@@ -1,7 +1,0 @@
-name: "Splunk"
-description: "ご存知Splunkです。ちょっとしたログファイルの解析のときなど、使い捨てでどうぞ。"
-version: "6.5"
-category: "Log Analytics"
-maintainer: 
-license:  
-projectURL: "https://hub.docker.com/r/splunk/splunk/"
