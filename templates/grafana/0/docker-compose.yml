@@ -1,5 +1,5 @@
 grafana:
-    image: minepicco/grafana:4.0beta
+    image: dockerrepo.nutanix.mnctech.com:5000/grafana:4.0beta
     ports:
         - ${http_port}:3000
     environment:
