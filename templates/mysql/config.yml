@@ -1,7 +1,0 @@
-name: "MySQLServer"
-description: "MySQL Sevverです。ちょっとデータベースが利用したいときなどにどうぞ。"
-version: "5.7"
-category: "SQLDBServer"
-maintainer: 
-license: 
-projectURL: "https://hub.docker.com/_/mysql/"
