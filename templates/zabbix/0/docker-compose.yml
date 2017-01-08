@@ -1,4 +1,4 @@
-PingFederate:
+Zabbix:
   ports:
     - ${ui_port}:80
   labels:
