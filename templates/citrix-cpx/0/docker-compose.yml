@@ -1,5 +1,5 @@
 citrix-cpx:
-    image: minepicco/citrix-cpx:11.1-48.10
+    image: dockerrepo.nutanix.mnctech.com:5000/citrix-cpx:11.1-48.10
     ports:
         - ${ssh_port}:22
         - ${http_port}:80
