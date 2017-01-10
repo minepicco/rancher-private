@@ -4,6 +4,6 @@ Zabbix:
   labels:
     io.rancher.container.pull_image: always
   tty: true
-  image: berngp/docker-zabbix
+  image: berngp/docker-zabbix:latest
   stdin_open: true
   
