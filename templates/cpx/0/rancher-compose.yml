@@ -31,7 +31,7 @@
       description: "port range for cpx-vip"
       label: "Port range"
       required: true
-      default: "81-90"
+      default: "81"
       type: "string"
     - variable: eula
       description: "EULA: https://www.citrix.com/buy/licensing/agreements.html"
