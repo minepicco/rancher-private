@@ -8,5 +8,5 @@ cpx:
         - ${port_range}:${port_range}
 
     environment:
-        EULA:${eula}
+        EULA: ${eula}
 
