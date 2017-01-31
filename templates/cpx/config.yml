@@ -1,0 +1,4 @@
+name: "Citrix CPX"
+description: "Citrix CPXのイメージです。SSHのデフォルトユーザー:パスワードは root:linux です。詳細は次のURLより入手可能です。 https://www.microloadbalancer.com/"
+version: "11.1-51.21"
+category: LoadBalancer
