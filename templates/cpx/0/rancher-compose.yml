@@ -32,5 +32,13 @@
       label: "Port range"
       required: true
       default: "81-90"
-      type: "string"      
+      type: "string"
+    - variable: eula
+      description: "EULA: https://www.citrix.com/buy/licensing/agreements.html"
+      label: "EULA Agreement"
+      default: ""
+      required: false
+      type: enum
+      options:
+        - yes
 cpx:
