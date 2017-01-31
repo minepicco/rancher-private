@@ -9,5 +9,4 @@ cpx:
 
     environment:
         EULA:${eula}
-        privileged:true
-        core:-1
+
