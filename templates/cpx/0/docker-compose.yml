@@ -8,6 +8,6 @@ cpx:
         - ${port_range}:${port_range}
 
     environment:
-        EULA: ${eula}
-        privileged=true
-        core=-1
+        EULA:${eula}
+        privileged:true
+        core:-1
