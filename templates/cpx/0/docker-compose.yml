@@ -6,6 +6,5 @@ cpx:
         - ${https_port}:443
         - ${snmp_port}:161/udp
         - ${port_range}:${port_range}
-
-    EULA: ${eula}
-
+    tty: true
+    privileged: true
