@@ -1,5 +1,5 @@
 citrix-cpx:
-    image: minepicco/citrix-cpx:11.1-51.21
+    image: minepicco/cpx:11.1-51.21
     ports:
         - ${ssh_port}:22
         - ${http_port}:80
