@@ -1,4 +1,4 @@
-citrix-cpx:
+cpx:
     image: minepicco/cpx:11.1-51.21
     ports:
         - ${ssh_port}:22
