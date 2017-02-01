@@ -8,3 +8,5 @@ cpx:
         - ${port_range}:${port_range}
     privileged: true
     tty: true
+    environment:
+        EULA: yes
