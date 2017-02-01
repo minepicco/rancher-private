@@ -27,5 +27,10 @@
       required: true
       default: "22"
       type: "int"
-      
+    - variable: port_range
+      description: "Port(s) mapped for incoming traffic"
+      label: "Incoming Port"
+      required: true
+      default: "81"
+      type: "int"   
 citrix-cpx:
