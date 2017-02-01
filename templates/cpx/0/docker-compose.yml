@@ -6,5 +6,4 @@ cpx:
         - ${https_port}:443
         - ${snmp_port}:161/udp
         - ${port_range}:${port_range}
-    tty: true
     privileged
