@@ -6,6 +6,6 @@ PingFederate:
   labels:
     io.rancher.container.pull_image: always
   tty: true
-  image: dockerrepo.nutanix.mnctech.com:5000/pingfederate:8.3
+  image: minepicco/pingfederate:8.3
   stdin_open: true
   command: "sh /root/pingfederate/bin/run.sh"
