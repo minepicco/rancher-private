@@ -1,0 +1,11 @@
+PingFederate:
+  ports:
+    - ${ui_port}:9999
+    - ${adopter}:1099
+    - ${sp_port}:9031
+  labels:
+    io.rancher.container.pull_image: always
+  tty: true
+  image: dockerrepo.nutanix.mnctech.com:5000/pingfederate:8.3
+  stdin_open: true
+  command: "sh /root/pingfederate/bin/run.sh"
