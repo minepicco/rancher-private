@@ -1,0 +1,25 @@
+PingFederate:
+  scale: 1
+.catalog:
+    name: "PingFederate"
+    version: "8.1.3"
+    description: "(This Image is not in use yet!!) Please access console first, and run /root/pingfederate/bin/run.sh then access http://<your docker host>:<ui port>"
+    questions:
+        - variable: ui_port
+          description: "UI Port to access PingDederate"
+          label: "nUI Port"
+          required: true
+          default: "9999"
+          type: "int"
+        - variable: adopter
+          description: "JMX remote monitoring port for PingFederate"
+          label: "JMX port"
+          required: true
+          default: "1099"
+          type: "int"
+        - variable: sp_port
+          description: "SP (service provider) port for PingFederate"
+          label: "SP port"
+          required: true
+          default: "9031"
+          type: "int"
