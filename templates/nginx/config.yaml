@@ -1,0 +1,4 @@
+name: "NGiNX"
+description: "NGiNXのイメージです。"
+version: "latest"
+category: "Web server"
