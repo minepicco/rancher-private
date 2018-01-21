@@ -1,4 +1,4 @@
 nginx:
-    image: dockerrepo.nutanix.mnctech.com:5000/nginx
+    image: dockerrepo.nutanix.mnctech.com:5000/nginx:latest
     ports:
       - ${http_port}:80
