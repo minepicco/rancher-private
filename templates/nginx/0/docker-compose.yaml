@@ -1,0 +1,4 @@
+nginx:
+    image: dockerrepo.nutanix.mnctech.com:5000/nginx
+    ports:
+- ${port}:88
