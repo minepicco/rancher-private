@@ -1,0 +1,4 @@
+menlo-squid:
+    image: minepicco/squid01:latest
+    ports:
+        - ${ssh_port}:3128
