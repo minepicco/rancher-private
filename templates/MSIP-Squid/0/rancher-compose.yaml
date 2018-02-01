@@ -1,0 +1,11 @@
+.catalog:
+  name: "MSIP-Squid"
+  version: "latest"
+  description: 
+  questions:
+    - variable: http_port
+      description: "http port access"
+      label: "Http Port"
+      required: true
+      default: "80"
+      type: "int"
