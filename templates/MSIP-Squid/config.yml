@@ -1,0 +1,4 @@
+name: "MSIP-Squid"
+description: "Menloクラウドへの接続を中継するSquidイメージです。"
+version: "To-Cloud"
+category: Proxy
